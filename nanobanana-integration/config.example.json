@@ -1,0 +1,9 @@
+{
+  "provider": "nanobanana",
+  "baseUrl": "https://www.nananobanana.com/api/v1",
+  "model": "nano-banana",
+  "defaultMode": "sync",
+  "defaultAspectRatio": "default",
+  "timeoutMs": 120000,
+  "outputDir": "./output"
+}

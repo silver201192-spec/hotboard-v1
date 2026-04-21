@@ -1,0 +1,18 @@
+{
+  "default": {
+    "suffix": "细节清晰，构图完整，画面干净",
+    "aspectRatio": "default"
+  },
+  "wallpaper": {
+    "suffix": "适合作为壁纸，画面完整，留白自然，细节丰富",
+    "aspectRatio": "16:9"
+  },
+  "portrait": {
+    "suffix": "适合头像或人物特写，主体明确，背景克制",
+    "aspectRatio": "1:1"
+  },
+  "anime": {
+    "suffix": "二次元风格，线条干净，颜色统一，氛围感强",
+    "aspectRatio": "3:4"
+  }
+}
