@@ -1,0 +1,12 @@
+{
+  "name": "hotboard-v1",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node scripts/fetch-hotspots.mjs",
+    "build": "node scripts/build-site.mjs",
+    "update": "npm run fetch && npm run build",
+    "serve": "python3 -m http.server 4321 -d public"
+  }
+}

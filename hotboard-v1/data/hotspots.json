@@ -1,0 +1,535 @@
+{
+  "generatedAt": "2026-04-21T02:47:43.333Z",
+  "categories": {
+    "technology": "科技",
+    "entertainment": "娱乐",
+    "military": "军事",
+    "politics": "政治"
+  },
+  "total": 80,
+  "failures": [
+    {
+      "source": "thepaper",
+      "error": "fetch failed"
+    }
+  ],
+  "items": {
+    "technology": [
+      {
+        "id": "#爱奇艺再回应AI艺人库#",
+        "title": "爱奇艺再回应AI艺人库",
+        "url": "https://s.weibo.com/weibo?q=%E7%88%B1%E5%A5%87%E8%89%BA%E5%86%8D%E5%9B%9E%E5%BA%94AI%E8%89%BA%E4%BA%BA%E5%BA%93",
+        "hot": 1190061,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "technology",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "BV17WZ4YsEiX",
+        "title": "2025全球最全电脑故障解决指南",
+        "url": "https://b23.tv/BV17WZ4YsEiX",
+        "hot": 1900379,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV1sGZbY6EoW",
+        "title": "蒙德：高清重置",
+        "url": "https://b23.tv/BV1sGZbY6EoW",
+        "hot": 2471682,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV11eZ8YLEZ6",
+        "title": "再见，Switch……",
+        "url": "https://b23.tv/BV11eZ8YLEZ6",
+        "hot": 1136098,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV11PZsY8EtB",
+        "title": "我国首个脑机接口指导价发布，震惊世界科技和医学两界",
+        "url": "https://b23.tv/BV11PZsY8EtB",
+        "hot": 1474344,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV1tnZqYTEx6",
+        "title": "手机续航大横评！到底谁的电池最耐用？",
+        "url": "https://b23.tv/BV1tnZqYTEx6",
+        "hot": 2113247,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV1cUoDYaEdb",
+        "title": "语音、画图、PPT、联动全网，我这个完美版的DeepSeek，你们都没有用过！",
+        "url": "https://b23.tv/BV1cUoDYaEdb",
+        "hot": 389467,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV1KXZJYpEut",
+        "title": "【2025年4月电脑装机配置推荐】不做无脑推荐！24套高性价比主机！含5060以及5060TI方案！新手小白预算3-36K怎么装机？含显卡游戏性能天梯图！",
+        "url": "https://b23.tv/BV1KXZJYpEut",
+        "hot": 1994117,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV1nYZcYpEco",
+        "title": "首次揭秘，影视飓风百人团建幕后！",
+        "url": "https://b23.tv/BV1nYZcYpEco",
+        "hot": 2721855,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV1gEodYtEBL",
+        "title": "小米良心 or 偷偷减配？报废级拆解小米中央空调",
+        "url": "https://b23.tv/BV1gEodYtEBL",
+        "hot": 1611705,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV1CaZxYFEFG",
+        "title": "【iPhone用户必看】一定要升级到iOS18.4正式版！feat. 25+ 新功能｜大耳朵TV",
+        "url": "https://b23.tv/BV1CaZxYFEFG",
+        "hot": 691004,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV15tZPYWEUh",
+        "title": "「小白」OPPO Find X8新系列全开箱 极窄边很亮眼！",
+        "url": "https://b23.tv/BV15tZPYWEUh",
+        "hot": 971346,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV1ttZzYgEF9",
+        "title": "硬控你两分钟",
+        "url": "https://b23.tv/BV1ttZzYgEF9",
+        "hot": 1086677,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV13bZpYvEDr",
+        "title": "81192，你的《夙愿》已超额实现！请返航！",
+        "url": "https://b23.tv/BV13bZpYvEDr",
+        "hot": 290281,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV1JNZnYVEQc",
+        "title": "「2025愚人节」 那些不存在的手机又双叒发布啦！",
+        "url": "https://b23.tv/BV1JNZnYVEQc",
+        "hot": 402686,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV15FZGYyEdc",
+        "title": "好文采！这篇作文听着听着眼前就全是风景😭",
+        "url": "https://b23.tv/BV15FZGYyEdc",
+        "hot": 7236942,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV1x8X6YFEF8",
+        "title": "每天认识一个强大的网站【第1期】 一个全面的设备维修教程网站，甚至还有修飞机的教程！",
+        "url": "https://b23.tv/BV1x8X6YFEF8",
+        "hot": 2914972,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV1NXfcYYEVq",
+        "title": "小米su7高速事故3人遇难",
+        "url": "https://b23.tv/BV1NXfcYYEVq",
+        "hot": 484914,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV14KZbYyEE6",
+        "title": "「趣看发布会」4月1日独家：赵明回归华为，发布神秘新品。",
+        "url": "https://b23.tv/BV14KZbYyEE6",
+        "hot": 570896,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV1D9ZWYTEvm",
+        "title": "友友们，我见到库克啦！！",
+        "url": "https://b23.tv/BV1D9ZWYTEvm",
+        "hot": 1108853,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "BV1qAZzY4Eyj",
+        "title": "华为 Pura X发售第一时间又消费了！今年最惊喜的拆解，全新的9020换封装工艺了，CPU不一样了！",
+        "url": "https://b23.tv/BV1qAZzY4Eyj",
+        "hot": 797223,
+        "rawCategory": "technology",
+        "source": "B站",
+        "category": "technology",
+        "sourceKey": "bilibili-tech"
+      },
+      {
+        "id": "20260421A007EL00",
+        "title": "陪伴容易，护理太难：养老机器人，离“替人养老”还有多远？",
+        "url": "https://view.inews.qq.com/a/20260421A007EL00",
+        "hot": 1236887,
+        "rawCategory": "technology",
+        "source": "腾讯新闻",
+        "category": "technology",
+        "sourceKey": "qq-news"
+      }
+    ],
+    "entertainment": [],
+    "military": [
+      {
+        "id": "#日本正式允许出口杀伤性武器#",
+        "title": "日本正式允许出口杀伤性武器",
+        "url": "https://s.weibo.com/weibo?q=%E6%97%A5%E6%9C%AC%E6%AD%A3%E5%BC%8F%E5%85%81%E8%AE%B8%E5%87%BA%E5%8F%A3%E6%9D%80%E4%BC%A4%E6%80%A7%E6%AD%A6%E5%99%A8",
+        "hot": 1161653,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "military",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "#第13批在韩志愿军烈士遗骸归国#",
+        "title": "第13批在韩志愿军烈士遗骸归国",
+        "url": "https://s.weibo.com/weibo?q=%E7%AC%AC13%E6%89%B9%E5%9C%A8%E9%9F%A9%E5%BF%97%E6%84%BF%E5%86%9B%E7%83%88%E5%A3%AB%E9%81%97%E9%AA%B8%E5%BD%92%E5%9B%BD",
+        "hot": 899538,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "military",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "2472810",
+        "title": "美菲启动军事演习 中方回应",
+        "url": "https://www.douyin.com/hot/2472810",
+        "hot": 9289519,
+        "rawCategory": "social",
+        "source": "抖音",
+        "category": "military",
+        "sourceKey": "douyin"
+      },
+      {
+        "id": "2473187",
+        "title": "媒体评日本军舰穿越台湾海峡",
+        "url": "https://www.douyin.com/hot/2473187",
+        "hot": 9129138,
+        "rawCategory": "social",
+        "source": "抖音",
+        "category": "military",
+        "sourceKey": "douyin"
+      },
+      {
+        "id": "20260421A01QXX00",
+        "title": "英雄回家！第十三批在韩中国人民志愿军烈士遗骸明日回国",
+        "url": "https://view.inews.qq.com/a/20260421A01QXX00",
+        "hot": 1792165,
+        "rawCategory": "military",
+        "source": "腾讯新闻",
+        "category": "military",
+        "sourceKey": "qq-news"
+      }
+    ],
+    "politics": [
+      {
+        "id": "weibo-3",
+        "title": "全新坦克700上市42.8万元起",
+        "url": "https://s.weibo.com/weibo?q=%E5%85%A8%E6%96%B0%E5%9D%A6%E5%85%8B700%E4%B8%8A%E5%B8%8242.8%E4%B8%87%E5%85%83%E8%B5%B7",
+        "hot": 879622,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "#苹果新任CEO特努斯是谁#",
+        "title": "苹果新任CEO特努斯是谁",
+        "url": "https://s.weibo.com/weibo?q=%E8%8B%B9%E6%9E%9C%E6%96%B0%E4%BB%BBCEO%E7%89%B9%E5%8A%AA%E6%96%AF%E6%98%AF%E8%B0%81",
+        "hot": 782381,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "#女子虐死男友3岁儿子被判死缓#",
+        "title": "女子虐死男友3岁儿子被判死缓",
+        "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E8%99%90%E6%AD%BB%E7%94%B7%E5%8F%8B3%E5%B2%81%E5%84%BF%E5%AD%90%E8%A2%AB%E5%88%A4%E6%AD%BB%E7%BC%93",
+        "hot": 768929,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "#19岁女孩挪用1700万当榜一大姐#",
+        "title": "19岁女孩挪用1700万当榜一大姐",
+        "url": "https://s.weibo.com/weibo?q=19%E5%B2%81%E5%A5%B3%E5%AD%A9%E6%8C%AA%E7%94%A81700%E4%B8%87%E5%BD%93%E6%A6%9C%E4%B8%80%E5%A4%A7%E5%A7%90",
+        "hot": 663853,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "weibo-7",
+        "title": "华为乾崑奕境首车命名X9",
+        "url": "https://s.weibo.com/weibo?q=%E5%8D%8E%E4%B8%BA%E4%B9%BE%E5%B4%91%E5%A5%95%E5%A2%83%E9%A6%96%E8%BD%A6%E5%91%BD%E5%90%8DX9",
+        "hot": 605450,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "谁管管虞书欣的剧宣idea",
+        "title": "谁管管虞书欣的剧宣idea",
+        "url": "https://s.weibo.com/weibo?q=%E8%B0%81%E7%AE%A1%E7%AE%A1%E8%99%9E%E4%B9%A6%E6%AC%A3%E7%9A%84%E5%89%A7%E5%AE%A3idea",
+        "hot": 506007,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "#高市早苗向靖国神社供奉祭品#",
+        "title": "高市早苗向靖国神社供奉祭品",
+        "url": "https://s.weibo.com/weibo?q=%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E5%90%91%E9%9D%96%E5%9B%BD%E7%A5%9E%E7%A4%BE%E4%BE%9B%E5%A5%89%E7%A5%AD%E5%93%81",
+        "hot": 485804,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "#丁俊晖赵心童回应对决#",
+        "title": "丁俊晖赵心童回应对决",
+        "url": "https://s.weibo.com/weibo?q=%E4%B8%81%E4%BF%8A%E6%99%96%E8%B5%B5%E5%BF%83%E7%AB%A5%E5%9B%9E%E5%BA%94%E5%AF%B9%E5%86%B3",
+        "hot": 483932,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "日本曾给灾民送千纸鹤",
+        "title": "日本曾给灾民送千纸鹤",
+        "url": "https://s.weibo.com/weibo?q=%E6%97%A5%E6%9C%AC%E6%9B%BE%E7%BB%99%E7%81%BE%E6%B0%91%E9%80%81%E5%8D%83%E7%BA%B8%E9%B9%A4",
+        "hot": 483356,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "鹿晗工作室",
+        "title": "鹿晗工作室",
+        "url": "https://s.weibo.com/weibo?q=%E9%B9%BF%E6%99%97%E5%B7%A5%E4%BD%9C%E5%AE%A4",
+        "hot": 482525,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "爱奇艺 观众要看真人",
+        "title": "爱奇艺 观众要看真人",
+        "url": "https://s.weibo.com/weibo?q=%E7%88%B1%E5%A5%87%E8%89%BA%20%E8%A7%82%E4%BC%97%E8%A6%81%E7%9C%8B%E7%9C%9F%E4%BA%BA",
+        "hot": 476336,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "#列车上得知儿子离世大叔孙女未成年#",
+        "title": "列车上得知儿子离世大叔孙女未成年",
+        "url": "https://s.weibo.com/weibo?q=%E5%88%97%E8%BD%A6%E4%B8%8A%E5%BE%97%E7%9F%A5%E5%84%BF%E5%AD%90%E7%A6%BB%E4%B8%96%E5%A4%A7%E5%8F%94%E5%AD%99%E5%A5%B3%E6%9C%AA%E6%88%90%E5%B9%B4",
+        "hot": 472456,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "#Liz不归还赞助的裤子引发争议#",
+        "title": "Liz不归还赞助的裤子引发争议",
+        "url": "https://s.weibo.com/weibo?q=Liz%E4%B8%8D%E5%BD%92%E8%BF%98%E8%B5%9E%E5%8A%A9%E7%9A%84%E8%A3%A4%E5%AD%90%E5%BC%95%E5%8F%91%E4%BA%89%E8%AE%AE",
+        "hot": 470848,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "#李小冉说我50了根本记不住#",
+        "title": "李小冉说我50了根本记不住",
+        "url": "https://s.weibo.com/weibo?q=%E6%9D%8E%E5%B0%8F%E5%86%89%E8%AF%B4%E6%88%9150%E4%BA%86%E6%A0%B9%E6%9C%AC%E8%AE%B0%E4%B8%8D%E4%BD%8F",
+        "hot": 464850,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "爱奇艺股价从46美元跌到1.4美元",
+        "title": "爱奇艺股价从46美元跌到1.4美元",
+        "url": "https://s.weibo.com/weibo?q=%E7%88%B1%E5%A5%87%E8%89%BA%E8%82%A1%E4%BB%B7%E4%BB%8E46%E7%BE%8E%E5%85%83%E8%B7%8C%E5%88%B01.4%E7%BE%8E%E5%85%83",
+        "hot": 463137,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "肖战 尚界",
+        "title": "肖战 尚界",
+        "url": "https://s.weibo.com/weibo?q=%E8%82%96%E6%88%98%20%E5%B0%9A%E7%95%8C",
+        "hot": 459148,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "宋旻浩出庭",
+        "title": "宋旻浩出庭",
+        "url": "https://s.weibo.com/weibo?q=%E5%AE%8B%E6%97%BB%E6%B5%A9%E5%87%BA%E5%BA%AD",
+        "hot": 453937,
+        "rawCategory": "social",
+        "source": "微博",
+        "category": "politics",
+        "sourceKey": "weibo"
+      },
+      {
+        "id": "2473169",
+        "title": "近70款车集体降价",
+        "url": "https://www.douyin.com/hot/2473169",
+        "hot": 11945675,
+        "rawCategory": "social",
+        "source": "抖音",
+        "category": "politics",
+        "sourceKey": "douyin"
+      },
+      {
+        "id": "2473318",
+        "title": "特纳斯将接替库克担任苹果CEO",
+        "url": "https://www.douyin.com/hot/2473318",
+        "hot": 11572782,
+        "rawCategory": "social",
+        "source": "抖音",
+        "category": "politics",
+        "sourceKey": "douyin"
+      },
+      {
+        "id": "2473532",
+        "title": "运20B最高标准接迎英烈回家",
+        "url": "https://www.douyin.com/hot/2473532",
+        "hot": 11555983,
+        "rawCategory": "social",
+        "source": "抖音",
+        "category": "politics",
+        "sourceKey": "douyin"
+      },
+      {
+        "id": "2472256",
+        "title": "山城的巷子里满是人间烟火",
+        "url": "https://www.douyin.com/hot/2472256",
+        "hot": 11446905,
+        "rawCategory": "social",
+        "source": "抖音",
+        "category": "politics",
+        "sourceKey": "douyin"
+      },
+      {
+        "id": "2473307",
+        "title": "高市早苗向靖国神社献祭品",
+        "url": "https://www.douyin.com/hot/2473307",
+        "hot": 10605930,
+        "rawCategory": "social",
+        "source": "抖音",
+        "category": "politics",
+        "sourceKey": "douyin"
+      },
+      {
+        "id": "2472402",
+        "title": "云南的目瑙纵歌节场面太震撼了",
+        "url": "https://www.douyin.com/hot/2472402",
+        "hot": 10401947,
+        "rawCategory": "social",
+        "source": "抖音",
+        "category": "politics",
+        "sourceKey": "douyin"
+      },
+      {
+        "id": "2472509",
+        "title": "裙摆一扬夏天登场",
+        "url": "https://www.douyin.com/hot/2472509",
+        "hot": 9301430,
+        "rawCategory": "social",
+        "source": "抖音",
+        "category": "politics",
+        "sourceKey": "douyin"
+      }
+    ]
+  }
+}
