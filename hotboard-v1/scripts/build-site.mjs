@@ -41,6 +41,7 @@ const html = `<!doctype html>
     <div class="sub">更新时间 ${escapeHtml(payload.generatedAt)}，聚合展示科技、娱乐、军事、政治四个垂类。</div>
     <div class="note">
       本页是<strong>热点聚合看板</strong>，不是事实核验后的新闻站。内容来自公开热榜与公开资讯接口，仅用于快速浏览和跳转原链接，不代表真实性判断。
+      <div style="margin-top:10px;color:#8fa0bd;">当前部署为 v1 预览版，重点先验证采集链路和网页呈现。</div>
     </div>
     <div class="grid">
       ${categoryOrder.map((key) => renderCategory(key, categoryTitle[key], payload.items[key] || [])).join('')}
@@ -59,7 +60,10 @@ await fs.writeFile(path.join(publicDir, 'hotspots.json'), JSON.stringify(payload
 console.log('site built');
 
 function renderCategory(key, label, items) {
-  return `<section class="card"><h2>${escapeHtml(label)}</h2><ol>${items.map((item) => `<li><a href="${escapeAttr(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.title)}</a><div class="meta"><span class="pill">${escapeHtml(item.source)}</span>${item.hot ? `<span class="pill">热度 ${escapeHtml(String(item.hot))}</span>` : ''}</div></li>`).join('')}</ol></section>`;
+  const inner = items.length
+    ? items.map((item) => `<li><a href="${escapeAttr(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.title)}</a><div class="meta"><span class="pill">${escapeHtml(item.source)}</span>${item.hot ? `<span class="pill">热度 ${escapeHtml(String(item.hot))}</span>` : ''}</div></li>`).join('')
+    : '<li style="list-style:none;margin-left:-20px;color:#7f8aa3;">这一栏还在补数据。</li>';
+  return `<section class="card"><h2>${escapeHtml(label)}</h2><ol>${inner}</ol></section>`;
 }
 
 function escapeHtml(value) {
