@@ -17,14 +17,18 @@ const SOURCES = [
         },
       });
       const items = json?.data?.realtime ?? [];
-      return items.slice(0, 20).map((item, index) => ({
-        id: item.mid || item.word_scheme || `weibo-${index}`,
-        title: item.word || item.word_scheme || `微博热搜 ${index + 1}`,
-        url: `https://s.weibo.com/weibo?q=${encodeURIComponent(item.word || item.word_scheme || '')}`,
-        hot: item.num || null,
-        rawCategory: 'social',
-        source: '微博',
-      }));
+      return items.slice(0, 20).map((item, index) => {
+        const title = item.word || item.word_scheme || `微博热搜 ${index + 1}`;
+        return {
+          id: item.mid || item.word_scheme || `weibo-${index}`,
+          title,
+          url: `https://s.weibo.com/weibo?q=${encodeURIComponent(title)}`,
+          hot: item.num || null,
+          summary: `微博热搜词条：${title}。当前为榜单级聚合，可点击查看原始讨论与延展内容。`,
+          rawCategory: 'social',
+          source: '微博',
+        };
+      });
     },
   },
   {
@@ -50,6 +54,7 @@ const SOURCES = [
         title: item.word,
         url: `https://www.douyin.com/hot/${item.sentence_id}`,
         hot: item.hot_value || null,
+        summary: `抖音热点：${item.word}。当前展示为热榜条目，可点进原链接查看短视频内容与评论走向。`,
         rawCategory: 'social',
         source: '抖音',
       }));
@@ -66,6 +71,7 @@ const SOURCES = [
         title: item.title,
         url: item.short_link_v2 || `https://www.bilibili.com/video/${item.bvid}`,
         hot: item.stat?.view || null,
+        summary: cleanSummary(item.desc) || `B站科技热点视频：${item.title}。可进入原视频页查看完整内容。`,
         rawCategory: 'technology',
         source: 'B站',
       }));
@@ -82,6 +88,7 @@ const SOURCES = [
         title: item.title,
         url: item.short_link_v2 || `https://www.bilibili.com/video/${item.bvid}`,
         hot: item.stat?.view || null,
+        summary: cleanSummary(item.desc) || `B站娱乐热点视频：${item.title}。可进入原视频页查看完整内容。`,
         rawCategory: 'entertainment',
         source: 'B站',
       }));
@@ -101,6 +108,7 @@ const SOURCES = [
         title: item.name || item.title,
         url: item.shareUrl || item.url || 'https://www.thepaper.cn/',
         hot: item.pv || null,
+        summary: cleanSummary(item.summary || item.digest || item.name || item.title),
         rawCategory: 'politics',
         source: '澎湃',
       }));
@@ -117,6 +125,7 @@ const SOURCES = [
         title: item.title || item.short_title,
         url: item.url || item.open_url || 'https://news.qq.com/',
         hot: item.hotEvent?.hotScore || item.hotScore || null,
+        summary: cleanSummary(item.abstract || item.intro || item.short_intro || item.title || item.short_title),
         rawCategory: guessCategory(item.title || item.short_title || ''),
         source: '腾讯新闻',
       }));
@@ -132,6 +141,12 @@ const CATEGORY_LABELS = {
 };
 
 const browserUA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36';
+
+function cleanSummary(text) {
+  const value = String(text || '').replace(/\s+/g, ' ').trim();
+  if (!value) return '';
+  return value.length > 88 ? `${value.slice(0, 88)}...` : value;
+}
 
 function guessCategory(title) {
   const t = String(title);

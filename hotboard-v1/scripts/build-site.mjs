@@ -29,7 +29,8 @@ const html = `<!doctype html>
     li { margin: 0 0 14px; }
     a { color:#f3f6ff; text-decoration:none; }
     a:hover { text-decoration:underline; }
-    .meta { margin-top:4px; font-size: 12px; color:#95a2bb; }
+    .summary { margin-top:6px; font-size: 13px; line-height:1.55; color:#b8c4da; }
+    .meta { margin-top:8px; font-size: 12px; color:#95a2bb; }
     .footer { margin-top: 26px; color:#7d8aa5; font-size: 13px; }
     .pill { display:inline-block; padding:2px 8px; border-radius:999px; background:#1c2743; margin-right:6px; }
     code { color:#9ad1ff; }
@@ -61,7 +62,7 @@ console.log('site built');
 
 function renderCategory(key, label, items) {
   const inner = items.length
-    ? items.map((item) => `<li><a href="${escapeAttr(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.title)}</a><div class="meta"><span class="pill">${escapeHtml(item.source)}</span>${item.hot ? `<span class="pill">热度 ${escapeHtml(String(item.hot))}</span>` : ''}</div></li>`).join('')
+    ? items.map((item) => `<li><a href="${escapeAttr(item.url)}" target="_blank" rel="noreferrer">${escapeHtml(item.title)}</a>${item.summary ? `<div class="summary">${escapeHtml(item.summary)}</div>` : ''}<div class="meta"><span class="pill">${escapeHtml(item.source)}</span>${item.hot ? `<span class="pill">热度 ${escapeHtml(String(item.hot))}</span>` : ''}</div></li>`).join('')
     : '<li style="list-style:none;margin-left:-20px;color:#7f8aa3;">这一栏还在补数据。</li>';
   return `<section class="card"><h2>${escapeHtml(label)}</h2><ol>${inner}</ol></section>`;
 }
