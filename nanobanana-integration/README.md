@@ -1,6 +1,6 @@
 # Nano Banana integration scaffold
 
-这是给 OpenClaw 后续接入 Nano Banana 生图能力准备的最小骨架。
+这是给 OpenClaw 后续接入图像生成能力准备的最小骨架，当前优先兼容 Nano Banana 和 Seedream。
 
 ## 当前阶段
 
@@ -17,21 +17,29 @@
 - `config.example.json`：配置示例
 - `scripts/generate.mjs`：最小调用脚本
 - `prompts/style-presets.json`：后续可扩展的风格预设
+- `.env.local`：本地密钥，不进提交
 
 ## 预期调用方式
 
-文生图：
+Seedream 文生图：
 
 ```bash
 cd nanobanana-integration
-NANOBANANA_API_KEY=你的key node scripts/generate.mjs --prompt "一只安静的白猫坐在雨夜窗边" --ratio 16:9
+ARK_API_KEY=你的key node scripts/generate.mjs --provider seedream --prompt "一只安静的白猫坐在雨夜窗边" --preset anime --ratio 16:9
+```
+
+Nano Banana 文生图：
+
+```bash
+cd nanobanana-integration
+NANOBANANA_API_KEY=你的key node scripts/generate.mjs --provider nanobanana --prompt "一只安静的白猫坐在雨夜窗边" --ratio 16:9
 ```
 
 图生图：
 
 ```bash
 cd nanobanana-integration
-NANOBANANA_API_KEY=你的key node scripts/generate.mjs --prompt "让这张图更像胶片电影剧照" --ref https://example.com/a.jpg --ref https://example.com/b.jpg
+ARK_API_KEY=你的key node scripts/generate.mjs --provider seedream --prompt "让这张图更像胶片电影剧照" --ref https://example.com/a.jpg
 ```
 
 ## 接入建议
