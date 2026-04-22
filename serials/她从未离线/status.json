@@ -1,14 +1,14 @@
 {
   "title": "她从未离线",
-  "currentCanonicalChapter": 12,
-  "currentCanonicalTitle": "她先替她挡了一下",
-  "nextExpectedChapter": 13,
-  "lastCanonicalFile": "serials/她从未离线/chapters/12-她先替她挡了一下.md",
-  "lastIndexSync": "2026-04-04",
-  "lastOutlineSync": "2026-04-04",
+  "currentCanonicalChapter": 34,
+  "currentCanonicalTitle": "先别替我说已经没事",
+  "nextExpectedChapter": 35,
+  "lastCanonicalFile": "serials/她从未离线/chapters/34-先别替我说已经没事.md",
+  "lastIndexSync": "2026-04-22",
+  "lastOutlineSync": "2026-04-22",
   "deliveryState": {
-    "pendingChapter": 13,
-    "pendingReason": "2026-04-05 noon/evening cron timed out; user-facing output became noisy and unreliable",
+    "pendingChapter": null,
+    "pendingReason": null,
     "doNotTreatAsCanonical": [
       "Any 2026-04-05 timeout/cron failure alerts sent to user",
       "Any 2026-04-05 heartbeat-style proactive message mixed into serial handling",
@@ -16,8 +16,8 @@
     ]
   },
   "notes": [
-    "Canonical progress must be determined from filed chapter files + index.md + outline.md, not from chat fragments.",
+    "Canonical progress must be determined from filed chapter files + index.md + outline.md + status.json, not from chat fragments.",
     "When output is noisy or delivery is unstable, recover clean state first, then deliver the next canonical chapter."
   ],
-  "updatedAt": "2026-04-05T20:35:00+08:00"
+  "updatedAt": "2026-04-23T00:00:00+08:00"
 }
