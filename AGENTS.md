@@ -44,6 +44,7 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you learn a lesson → update AGENTS.md, TOOLS.md, or the relevant skill
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
+- 固定机制：**每天 24:00（Asia/Shanghai）必须执行一次当日回顾**，把当天对话里新形成的 skill/workflow、需要强化记住的事实与偏好、以及应沉淀到工作区的内容主动落盘；不要依赖“明天还记得”。
 
 ## Red Lines
 
