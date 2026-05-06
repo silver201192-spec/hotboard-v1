@@ -19,8 +19,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: npm
-          cache-dependency-path: hotboard-v1/package.json
 
       - name: Install dependencies
         working-directory: hotboard-v1
@@ -34,10 +32,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add hotboard-v1/data/hotspots.json hotboard-v1/public/hotspots.json hotboard-v1/public/index.html hotboard-v1/public/technology.html hotboard-v1/public/entertainment.html hotboard-v1/public/military.html hotboard-v1/public/politics.html
+          git add hotboard-v1/data/hotspots.json hotboard-v1/public/hotspots.json hotboard-v1/public/*.html
           if git diff --cached --quiet; then
             echo "No changes to commit"
             exit 0
           fi
           git commit -m "chore: refresh hotboard data"
-          git push          
+          git push

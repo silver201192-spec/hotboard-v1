@@ -31,14 +31,14 @@
     .wrap {
       position: relative;
       z-index: 1;
-      max-width: 1180px;
+      max-width: 1320px;
       margin: 0 auto;
-      padding: 56px 24px 80px;
+      padding: 56px 24px 92px;
     }
     .hero {
       display: grid;
       gap: 18px;
-      margin-bottom: 40px;
+      margin-bottom: 48px;
     }
     .eyebrow {
       display: inline-flex;
@@ -62,11 +62,11 @@
       letter-spacing: -0.04em;
     }
     .sub {
-      max-width: 720px;
+      max-width: 820px;
       margin: 0;
       color: #9db0d0;
       font-size: 16px;
-      line-height: 1.8;
+      line-height: 1.9;
     }
     .meta-row {
       display: flex;
@@ -84,7 +84,7 @@
     }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 18px;
     }
     .card {
@@ -93,7 +93,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      min-height: 220px;
+      min-height: 210px;
       padding: 22px;
       border-radius: 24px;
       text-decoration: none;
@@ -129,7 +129,7 @@
       text-transform: uppercase;
     }
     .card-title {
-      font-size: 30px;
+      font-size: 28px;
       font-weight: 700;
       letter-spacing: -0.03em;
     }
@@ -161,10 +161,17 @@
       color: #6f83a6;
       font-size: 12px;
     }
+    @media (max-width: 1100px) {
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
     @media (max-width: 640px) {
-      .wrap { padding-top: 40px; }
-      .card { min-height: 190px; }
-      .card-title { font-size: 26px; }
+      .wrap { padding-top: 40px; padding-left: 18px; padding-right: 18px; }
+      .grid { grid-template-columns: 1fr; gap: 14px; }
+      .card { min-height: 168px; padding: 18px; border-radius: 20px; }
+      .card-title { font-size: 24px; }
+      .card-desc { font-size: 13px; line-height: 1.7; }
+      .meta-row { gap: 8px; }
+      .meta-chip { padding: 7px 10px; font-size: 12px; }
     }
   </style>
 </head>
@@ -176,7 +183,7 @@
       <p class="sub">先选垂类，再进入细分榜单。主页只保留方向，不在这里堆内容。</p>
       <div class="meta-row">
         <div class="meta-chip">4 个垂类</div>
-        <div class="meta-chip">更新于 05/05 17:07</div>
+        <div class="meta-chip">更新于 05/06 21:11</div>
         <div class="meta-chip">极简入口</div>
       </div>
     </section>
@@ -189,37 +196,77 @@
       <div class="card-desc">设备、AI、产品与互联网动向</div>
     </div>
     <div class="card-bottom">
-      <span>1 条已聚合</span>
+      <span>21 条已聚合</span>
       <span class="arrow">↗</span>
     </div>
-  </a><a class="card" href="/entertainment.html" style="--glow:rgba(0, 229, 194, 0.34)">
+  </a><a class="card" href="/finance.html" style="--glow:rgba(0, 229, 194, 0.34)">
     <div class="card-top">
       <div class="card-kicker">Category 02</div>
+      <div class="card-title">财经</div>
+      <div class="card-desc">市场、公司、消费与资本流向</div>
+    </div>
+    <div class="card-bottom">
+      <span>2 条已聚合</span>
+      <span class="arrow">↗</span>
+    </div>
+  </a><a class="card" href="/society.html" style="--glow:rgba(255, 120, 163, 0.32)">
+    <div class="card-top">
+      <div class="card-kicker">Category 03</div>
+      <div class="card-title">社会</div>
+      <div class="card-desc">民生、公共事件与社会讨论</div>
+    </div>
+    <div class="card-bottom">
+      <span>24 条已聚合</span>
+      <span class="arrow">↗</span>
+    </div>
+  </a><a class="card" href="/world.html" style="--glow:rgba(255, 193, 92, 0.34)">
+    <div class="card-top">
+      <div class="card-kicker">Category 04</div>
+      <div class="card-title">国际</div>
+      <div class="card-desc">国际局势、外交与全球热点</div>
+    </div>
+    <div class="card-bottom">
+      <span>2 条已聚合</span>
+      <span class="arrow">↗</span>
+    </div>
+  </a><a class="card" href="/entertainment.html" style="--glow:rgba(122, 162, 255, 0.36)">
+    <div class="card-top">
+      <div class="card-kicker">Category 05</div>
       <div class="card-title">娱乐</div>
       <div class="card-desc">明星、影视、综艺与舆论热度</div>
     </div>
     <div class="card-bottom">
-      <span>3 条已聚合</span>
+      <span>22 条已聚合</span>
       <span class="arrow">↗</span>
     </div>
-  </a><a class="card" href="/military.html" style="--glow:rgba(255, 120, 163, 0.32)">
+  </a><a class="card" href="/sports.html" style="--glow:rgba(123, 104, 238, 0.34)">
     <div class="card-top">
-      <div class="card-kicker">Category 03</div>
-      <div class="card-title">军事</div>
-      <div class="card-desc">军情、国防与国际安全相关</div>
+      <div class="card-kicker">Category 06</div>
+      <div class="card-title">体育</div>
+      <div class="card-desc">比赛、战绩、球员与热搜焦点</div>
+    </div>
+    <div class="card-bottom">
+      <span>2 条已聚合</span>
+      <span class="arrow">↗</span>
+    </div>
+  </a><a class="card" href="/gaming.html" style="--glow:rgba(72, 187, 255, 0.36)">
+    <div class="card-top">
+      <div class="card-kicker">Category 07</div>
+      <div class="card-title">游戏</div>
+      <div class="card-desc">游戏、主机、电竞与玩家话题</div>
     </div>
     <div class="card-bottom">
       <span>0 条已聚合</span>
       <span class="arrow">↗</span>
     </div>
-  </a><a class="card" href="/politics.html" style="--glow:rgba(255, 193, 92, 0.34)">
+  </a><a class="card" href="/military.html" style="--glow:rgba(145, 255, 185, 0.28)">
     <div class="card-top">
-      <div class="card-kicker">Category 04</div>
-      <div class="card-title">政治</div>
-      <div class="card-desc">公共议题、政策与时事讨论</div>
+      <div class="card-kicker">Category 08</div>
+      <div class="card-title">军事</div>
+      <div class="card-desc">军情、国防与国际安全相关</div>
     </div>
     <div class="card-bottom">
-      <span>24 条已聚合</span>
+      <span>2 条已聚合</span>
       <span class="arrow">↗</span>
     </div>
   </a>

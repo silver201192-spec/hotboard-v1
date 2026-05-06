@@ -135,9 +135,13 @@ const SOURCES = [
 
 const CATEGORY_LABELS = {
   technology: '科技',
+  finance: '财经',
+  society: '社会',
+  world: '国际',
   entertainment: '娱乐',
+  sports: '体育',
+  gaming: '游戏',
   military: '军事',
-  politics: '政治',
 };
 
 const browserUA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36';
@@ -151,9 +155,14 @@ function cleanSummary(text) {
 function guessCategory(title) {
   const t = String(title);
   if (/(芯片|ai|人工智能|科技|手机|电脑|数码|机器人|互联网|软件|开源|大模型|gpu|半导体)/i.test(t)) return 'technology';
+  if (/(股市|基金|a股|港股|美股|经济|财经|银行|货币|财报|融资|黄金|原油|楼市|房价|消费|产业)/i.test(t)) return 'finance';
+  if (/(国际|美国|欧洲|日本|韩国|俄乌|中东|外交|联合国|海外|全球|world)/i.test(t)) return 'world';
+  if (/(社会|民生|警方|事故|地震|失踪|救援|学校|高考|教育|医院|养老|婚姻|治安)/i.test(t)) return 'society';
   if (/(明星|综艺|电影|电视剧|娱乐|演唱会|偶像|艺人|票房|动画|番剧)/i.test(t)) return 'entertainment';
+  if (/(体育|足球|篮球|nba|cba|欧冠|世界杯|奥运|网球|羽毛球|乒乓|田径|斯诺克|电竞比赛)/i.test(t)) return 'sports';
+  if (/(游戏|steam|主机|网游|手游|电竞|任天堂|switch|ps5|xbox|米哈游|原神|鸣潮)/i.test(t)) return 'gaming';
   if (/(军|导弹|战机|航母|演训|空军|海军|陆军|国防|武器|部队)/i.test(t)) return 'military';
-  return 'politics';
+  return 'society';
 }
 
 async function fetchJson(url, options = {}) {

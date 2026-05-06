@@ -5,7 +5,7 @@ const dataPath = path.resolve('data/hotspots.json');
 const publicDir = path.resolve('public');
 const payload = JSON.parse(await fs.readFile(dataPath, 'utf8'));
 
-const categoryOrder = ['technology', 'entertainment', 'military', 'politics'];
+const categoryOrder = ['technology', 'finance', 'society', 'world', 'entertainment', 'sports', 'gaming', 'military'];
 const categoryTitle = payload.categories;
 
 const landingHtml = `<!doctype html>
@@ -41,14 +41,14 @@ const landingHtml = `<!doctype html>
     .wrap {
       position: relative;
       z-index: 1;
-      max-width: 1180px;
+      max-width: 1320px;
       margin: 0 auto;
-      padding: 56px 24px 80px;
+      padding: 56px 24px 92px;
     }
     .hero {
       display: grid;
       gap: 18px;
-      margin-bottom: 40px;
+      margin-bottom: 48px;
     }
     .eyebrow {
       display: inline-flex;
@@ -72,11 +72,11 @@ const landingHtml = `<!doctype html>
       letter-spacing: -0.04em;
     }
     .sub {
-      max-width: 720px;
+      max-width: 820px;
       margin: 0;
       color: #9db0d0;
       font-size: 16px;
-      line-height: 1.8;
+      line-height: 1.9;
     }
     .meta-row {
       display: flex;
@@ -94,7 +94,7 @@ const landingHtml = `<!doctype html>
     }
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       gap: 18px;
     }
     .card {
@@ -103,7 +103,7 @@ const landingHtml = `<!doctype html>
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      min-height: 220px;
+      min-height: 210px;
       padding: 22px;
       border-radius: 24px;
       text-decoration: none;
@@ -139,7 +139,7 @@ const landingHtml = `<!doctype html>
       text-transform: uppercase;
     }
     .card-title {
-      font-size: 30px;
+      font-size: 28px;
       font-weight: 700;
       letter-spacing: -0.03em;
     }
@@ -171,10 +171,17 @@ const landingHtml = `<!doctype html>
       color: #6f83a6;
       font-size: 12px;
     }
+    @media (max-width: 1100px) {
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
     @media (max-width: 640px) {
-      .wrap { padding-top: 40px; }
-      .card { min-height: 190px; }
-      .card-title { font-size: 26px; }
+      .wrap { padding-top: 40px; padding-left: 18px; padding-right: 18px; }
+      .grid { grid-template-columns: 1fr; gap: 14px; }
+      .card { min-height: 168px; padding: 18px; border-radius: 20px; }
+      .card-title { font-size: 24px; }
+      .card-desc { font-size: 13px; line-height: 1.7; }
+      .meta-row { gap: 8px; }
+      .meta-chip { padding: 7px 10px; font-size: 12px; }
     }
   </style>
 </head>
@@ -213,13 +220,21 @@ function renderLandingCard(key, label, items, index) {
     'rgba(87, 138, 255, 0.42)',
     'rgba(0, 229, 194, 0.34)',
     'rgba(255, 120, 163, 0.32)',
-    'rgba(255, 193, 92, 0.34)'
+    'rgba(255, 193, 92, 0.34)',
+    'rgba(122, 162, 255, 0.36)',
+    'rgba(123, 104, 238, 0.34)',
+    'rgba(72, 187, 255, 0.36)',
+    'rgba(145, 255, 185, 0.28)'
   ];
   const descMap = {
     technology: '设备、AI、产品与互联网动向',
+    finance: '市场、公司、消费与资本流向',
+    society: '民生、公共事件与社会讨论',
+    world: '国际局势、外交与全球热点',
     entertainment: '明星、影视、综艺与舆论热度',
-    military: '军情、国防与国际安全相关',
-    politics: '公共议题、政策与时事讨论'
+    sports: '比赛、战绩、球员与热搜焦点',
+    gaming: '游戏、主机、电竞与玩家话题',
+    military: '军情、国防与国际安全相关'
   };
   return `<a class="card" href="/${escapeAttr(key)}.html" style="--glow:${accents[index % accents.length]}">
     <div class="card-top">
